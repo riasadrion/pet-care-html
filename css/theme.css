@@ -12,7 +12,7 @@ h1 {
   background-color: #0084ff;
   color: white !important;
   border-radius: 50%;
-  padding: 7px 17px 6px 18px;
+  padding: 4px 10px;
   font-size: 25px;
   transition: 0.3s;
 }
@@ -24,6 +24,7 @@ h1 {
 }
 .small-title {
   font-size: 21px;
+  font-weight: bold;
   margin: 10px 0;
   color: #4c4c4c;
 }
@@ -87,12 +88,11 @@ a.button:hover {
   width: 80%;
   box-shadow: 0px 29px 41px rgb(0 0 0 / 25%);
 }
-
 .icon {
   background: #0084ff;
-  width: 80px;
+  width: 73px;
   border-radius: 50%;
-  padding: 14px;
+  padding: 16px 17px;
 }
 .feature {
   padding: 40px 10px;
