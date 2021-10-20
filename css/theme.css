@@ -98,6 +98,13 @@ a.button:hover {
   padding: 40px 10px;
   border-radius: 20px;
   box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  color: #fff;
+}
+.center-logo {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
 }
 /* Mobile Devices */
 @media screen and (max-width: 480px) {
