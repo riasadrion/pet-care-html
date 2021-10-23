@@ -1,12 +1,31 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
-
+.theme-bg {
+  background-color: #0084ff;
+}
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 h1 {
   font-size: 56px;
   font-weight: 700;
   line-height: 59px;
   color: #4c4c4c;
+}
+.btn-theme {
+  background-color: #0084ff;
+  color: white !important;
+  transition: 0.3s;
+}
+.btn-theme:hover {
+  margin-left: 10px;
+  color: #0084ff !important;
+  background-color: #ffffff !important;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .btn-theme-icon {
   background-color: #0084ff;
@@ -36,6 +55,10 @@ h1 {
 .space {
   width: 100%;
   height: 150px;
+}
+.space-sm {
+  width: 100%;
+  height: 50px;
 }
 .nav-link {
   padding: 4px 0 0 0 !important;
@@ -99,12 +122,81 @@ a.button:hover {
   border-radius: 20px;
   box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
   color: #fff;
+  transition: 0.3s;
+  background-color: #ffff;
+  margin-bottom: 25px;
+}
+.feature:hover {
+  transform: scale(1.1);
 }
 .center-logo {
   height: 130px;
   width: 130px;
   border-radius: 50%;
   box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+.accordion-button:not(.collapsed) {
+  color: #ffffff;
+  background-color: #0084ff;
+}
+.testimonial-card {
+  padding: 20px 30px;
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+  border-radius: 15px;
+}
+.quote-icon {
+  color: #0084ff;
+  font-size: 30px;
+}
+
+.user-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.blog-post {
+  border-radius: 10px;
+  border: none;
+  transition: all 0.3s;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-bottom: 25px;
+}
+.blog-post:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transform: scale(1.05);
+}
+.post-image {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+label.date-time {
+  padding: 0px 15px;
+  color: #a5a5a5;
+  font-size: 14px;
+  margin: 8px 0px;
+}
+a.card-title {
+  width: 100%;
+  text-decoration: none;
+  color: #818181;
+  font-size: 19px;
+  line-height: 5px;
+  margin-bottom: 9px !important;
+  transition: all 0.3s;
+}
+a.card-title:hover {
+  color: #0084ff;
+}
+.author-name {
+  color: #0084ff;
+}
+.line {
+  height: 7px;
+  background-color: #0084ff;
+  width: 70px;
+  margin-top: 8px;
 }
 /* Mobile Devices */
 @media screen and (max-width: 480px) {
