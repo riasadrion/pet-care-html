@@ -189,6 +189,11 @@ a.card-title {
 a.card-title:hover {
   color: #0084ff;
 }
+.card-text {
+  color: #a3a3a3;
+  line-height: 20px;
+  font-size: 15px;
+}
 .author-name {
   color: #0084ff;
 }
@@ -197,6 +202,10 @@ a.card-title:hover {
   background-color: #0084ff;
   width: 70px;
   margin-top: 8px;
+}
+.owl-carousel .owl-stage {
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 /* Mobile Devices */
 @media screen and (max-width: 480px) {
