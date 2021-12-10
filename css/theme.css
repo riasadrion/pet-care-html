@@ -3,12 +3,16 @@ body {
 }
 .theme-bg {
   background-color: #0084ff;
+  color: #fff !important;
 }
 .parallax {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.hero-txt {
+  margin-top: 200px;
 }
 h1 {
   font-size: 56px;
@@ -95,21 +99,7 @@ a.button:hover {
 }
 
 .hero-section {
-  height: 400px;
-  border-radius: 44px;
-  margin-top: 60px;
-  background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgb(0 132 255) 0.1%,
-    rgb(110 0 255) 99.8%
-  );
-}
-.hero-img {
-  border-radius: 50%;
-  position: relative;
-  top: -53px;
-  width: 80%;
-  box-shadow: 0px 29px 41px rgb(0 0 0 / 25%);
+  height: 80vh;
 }
 .icon {
   background: #0084ff;
@@ -134,10 +124,6 @@ a.button:hover {
   width: 130px;
   border-radius: 50%;
   box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
-}
-.accordion-button:not(.collapsed) {
-  color: #ffffff;
-  background-color: #0084ff;
 }
 .testimonial-card {
   padding: 20px 30px;
@@ -207,13 +193,66 @@ a.card-title:hover {
   padding-top: 20px;
   padding-bottom: 40px;
 }
+/* .collapse-heading:focus {
+  outline: 0;
+} */
+.collapse-group {
+  margin: 18px;
+  width: 80%;
+}
+.collapse-heading {
+  border: none;
+  width: 100%;
+  text-align: left;
+  padding: 15px 20px;
+  border-radius: 30px;
+  background: #fff;
+  margin-bottom: 5px;
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+  font-weight: 500;
+}
+.collapse {
+  padding: 0 10px;
+}
+.collapsing {
+  padding: 0 10px;
+}
+
+.popular {
+  border: 2px solid #0084ff;
+  transform: scale(1.05);
+}
+.card-pricing {
+  z-index: 1;
+  margin: 15px;
+  border-radius: 20px;
+}
+.card-pricing .list-unstyled li {
+  padding: 0.5rem 0;
+  color: #6c757d;
+}
 /* Mobile Devices */
 @media screen and (max-width: 480px) {
   a.button {
     margin-top: 10px;
   }
+  h1 {
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 53px;
+    color: #4c4c4c;
+  }
+  .hero-txt {
+    margin-top: 200px;
+  }
+  .space-sm {
+    height: 20px;
+  }
   .space {
     height: 50px;
+  }
+  .pricing {
+    margin: 0 15px;
   }
 }
 
