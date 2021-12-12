@@ -18,6 +18,21 @@
 </head>
 
 <body>
+    <div class="topbar container-fluid d-sm-none d-md-block">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    Call us now! <i class="bi bi-telephone-fill"></i> +987987987
+                </div>
+                <div class="col d-flex justify-content-end">
+                    <a class="text-white mx-1 text-decoration-none" href="#">Join us</a>
+                    <a href="" class="text-white mx-1"><i class="bi bi-facebook"></i></a>
+                    <a href="" class="text-white mx-1"><i class="bi bi-twitter"></i></a>
+                    <a href="" class="text-white mx-1"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container py-3">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
@@ -553,11 +568,112 @@
         </div>
         <div class="space-sm"></div>
         <div class="row">
-            <div class="col-md-6 col-sm-12">
-
+            <div class="col-md-6 col-sm-12 p-0">
+                <img class="img-fluid w-100"
+                    src="https://unsplash.com/photos/ZzEgfT9Fxn4/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTl8fHBldCUyMGRvY3Rvcnx8MHx8fHwxNjM5Mjg4OTU2&force=true&w=640"
+                    alt="">
             </div>
-            <div class="col-md-6 col-sm-12">
-
+            <div class="col-md-6 col-sm-12 p-5" style="background-color: #0093E9;
+                    background-image: linear-gradient(97deg, #0093E9 0%, #80D0C7 100%);
+                    ">
+                <form action="">
+                    <div class="mb-3">
+                        <select class="form-control" name="service_id" id="">
+                            <option value="" class="form-control">Select Service</option>
+                            <option value="" class="form-control">Pet Grooming</option>
+                            <option value="" class="form-control">Pet Walk</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" name="email" placeholder="Enter email">
+                    </div>
+                    <div class="mb-3 row">
+                        <div class="col">
+                            <input type="date" class="form-control" name="email" placeholder="Enter email">
+                        </div>
+                        <div class="col">
+                            <input type="time" class="form-control" name="email" placeholder="Enter email">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Write message"></textarea>
+                    </div>
+                    <div class="mb-3 text-right">
+                        <button type="submit" class="btn bg-light">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-md-3 col-sm-12 mb-5">
+                    <img width="200" src="./assets/logo-white.png" alt="">
+                    <p class="mt-4 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
+                        sapiente cumque
+                        quae
+                        consequatur quaerat tenetur fuga quidem lab</p>
+                    <a href="" class="social-icon"><i class="bi bi-facebook"></i></a>
+                    <a href="" class="social-icon"><i class="bi bi-twitter"></i></a>
+                    <a href="" class="social-icon"><i class="bi bi-instagram"></i></a>
+                </div>
+                <div class="col-md-2 col-sm-12 mb-5">
+                    <h5>Links</h5>
+                    <ul class="footer-menu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Login</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-12 mb-5">
+                    <div class="row mb-4">
+                        <h5>Blog Posts</h5>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-4">
+                            <div class="blog-thumb-sm"
+                                style="background-image: url(https://unsplash.com/photos/VQPD1fc_Y8g/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTR8fHBldHx8MHx8fHwxNjM5Mjk0OTUw&force=true&w=640);">
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <a class="text-white text-decoration-none" href="#">Lorem, ipsum dolor sit amet consectetur
+                                adipi</a>
+                            <label class="date-time p-0">
+                                <span class="author-name">Admin</span>, 16 August 2014
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="blog-thumb-sm"
+                                style="background-image: url(https://unsplash.com/photos/VQPD1fc_Y8g/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTR8fHBldHx8MHx8fHwxNjM5Mjk0OTUw&force=true&w=640);">
+                            </div>
+                        </div>
+                        <div class="col-8  ">
+                            <a class="text-white text-decoration-none" href="#">Lorem, ipsum dolor sit amet consectetur
+                                adipi, </a>
+                            <label class="date-time p-0">
+                                <span class="author-name">Admin</span>, 18 August 2014
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-5">
+                    <h5>Find us</h5>
+                    <p class="mt-4">Email: admin@gmail.com<br>
+                        Contact: +8768768768<br>
+                        Address: New York, NY, USA</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center py-4">
+                    Designed & Developed by <a class="text-decoration-none" href="#">AppsVill</a>
+                </div>
             </div>
         </div>
     </div>
